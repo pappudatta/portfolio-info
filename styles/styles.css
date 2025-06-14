@@ -27,7 +27,19 @@ body{
 .btn-parimary:hover{
  background-color: rgb(29, 130, 130);
 }
-
+.section-title{
+    font-size: 35px;
+    font-weight: 700px;
+    color: rgb(24, 24, 24);
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgb(117, 117, 117);
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 /* Nav styles */
 nav ul{
     display: flex;
@@ -55,6 +67,11 @@ nav li a{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: left center, bottom right;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 /* banner styles */
 .banner{
@@ -84,5 +101,30 @@ nav li a{
     width: 584px;
     height: 670px;
     padding-bottom: 0px;
+}
+/* section about us */
+.about{
+    border-radius: 10px;
+    padding: 85px 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    /* text-align: center; */
+}
+.info-title{
+    font-weight: 400px;
+    color: rgb(117, 117, 117);
+    margin-bottom: 0px;
+}
+.info-description{
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(117, 117, 117);
+    margin-top: 5px;
 }
 
