@@ -248,16 +248,24 @@ footer{
     margin: 0px 200px;
     /* border: 2px solid black; */
 }
+
+/* .footer-clos{                   বিকল্প 
+    display:flex
+    text-align:left
+    width:1020px
+    margin:25px auto;
+} */
+
 .connect-part{
-  flex: 1;                /*দুইটি ডিভ সমান জায়গা নেবে */
+  flex: 1;                দুইটি ডিভ সমান জায়গা নেবে
   padding: 20px;
   text-align: left;
 }
 .message-part{
-  flex: 1;                /*দুইটি ডিভ সমান জায়গা নেবে */
+  flex: 1;                দুইটি ডিভ সমান জায়গা নেবে
   padding: 20px;
   text-align: left;
-}
+} 
 .input-item input, textarea {
     display: block;
     margin-bottom: 10px;
