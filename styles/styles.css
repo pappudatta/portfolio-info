@@ -257,12 +257,12 @@ footer{
 } */
 
 .connect-part{
-  flex: 1;                দুইটি ডিভ সমান জায়গা নেবে
+  flex: 1;                
   padding: 20px;
   text-align: left;
 }
 .message-part{
-  flex: 1;                দুইটি ডিভ সমান জায়গা নেবে
+  flex: 1;               
   padding: 20px;
   text-align: left;
 } 
@@ -280,3 +280,36 @@ footer{
     text-align: center;
 }
 
+.hide{
+    display: none;
+}
+/* responsive media quary */
+
+@media screen and (max-width: 576px) {
+    .skils-container, .resume-container{
+        flex-direction: column;
+        padding: 0px;
+    }
+    #what-i-do-description{
+        padding: 0px;
+        font-size: 1em;
+        text-align: left;
+    }
+    .footer{
+        padding: 0px;
+    }
+    .footer-clos{
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+    .about{
+        text-align: center;
+        padding: 0px 30px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    
+    
+}
