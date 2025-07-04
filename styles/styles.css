@@ -286,7 +286,9 @@ footer{
 /* responsive media quary */
 
 @media screen and (max-width: 576px) {
-    .skils-container, .resume-container{
+    .skils-container, 
+    .resume-container,
+    .banner{
         flex-direction: column;
         padding: 0px;
     }
@@ -310,6 +312,24 @@ footer{
     .about-info-container{
         flex-direction: column;
     }
-    
-    
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .profile-picture{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn-parimary{
+        margin-bottom: 20px;
+    }
+
 }
